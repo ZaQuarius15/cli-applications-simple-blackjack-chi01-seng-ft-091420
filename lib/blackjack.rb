@@ -44,8 +44,7 @@ def hit?(cards)
     cards += new_card
   else
     invalid_command
-    prompt_user
-    get_user_input
+    hit?(cards)
   end
 end
 
